@@ -18,7 +18,7 @@ multi:
   - name: tigger/B_EX110.mdlx
 
 #Demyx#
-- name: obj/B_EX110.mdlx
+- name: obj/B_EX120.mdlx
 multi:
   - name: obj/B_EX120_GM.mdlx
   - name: obj/B_EX120_HB.mdlx
