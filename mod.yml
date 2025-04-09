@@ -1,141 +1,471 @@
-title: Tipper
+title: Banjo-Kazooie
 originalAuthor: danimalforlife
-description: Come on, let's bounce!
+description: |+
+  Wake up, I want to go on an adventure too...
+  Banjo! Wake up......Now!
+  Let's get outside, there's trouble!
+
 dependencies: 
 assets:
 
-#Axel#
-- name: obj/B_EX110.mdlx
-multi:
-  - name: obj/B_EX110_FRIEND.mdlx
-  - name: obj/B_EX110_RTN.mdlx
-  - name: obj/B_EX110_SKIRMISH.mdlx
-  - name: obj/B_EX110_GM.mdlx
-  - name: obj/B_EX110_LV99.mdlx
-  package: kh2_fifth
-  method: copy
-  source:
-  - name: tigger/B_EX110.mdlx
 
-#Demyx#
-- name: obj/B_EX120.mdlx
-multi:
-  - name: obj/B_EX120_GM.mdlx
-  - name: obj/B_EX120_HB.mdlx
-  - name: obj/B_EX120_HB_LV99.mdlx
-  package: kh2_fifth
+#Sora Models#
+- name: obj/P_EX100.mdlx
+  multi:
+  - name: obj/P_EX100_BTLF.mdlx
+  - name: obj/P_EX100_TRIF.mdlx
+  - name: obj/P_EX100_ULTF.mdlx
+  - name: obj/P_EX100_HTLF.mdlx
+  - name: obj/P_EX100_NPC.mdlx
+  - name: obj/P_EX100_NM.mdlx
+  - name: obj/P_EX100_NM_BTLF.mdlx
+  - name: obj/P_EX100_NM_TRIF.mdlx
+  - name: obj/P_EX100_NM_ULTF.mdlx
+  - name: obj/P_EX100_NM_HTLF.mdlx
+  - name: obj/P_EX100_AL_CARPET.mdlx
+  - name: obj/P_EX100_TR_LIGHTCYCLE.mdlx
+  - name: obj/P_EX100_TR.mdlx
+  - name: obj/P_EX100_TR_BTLF.mdlx
+  - name: obj/P_EX100_TR_TRIF.mdlx
+  - name: obj/P_EX100_TR_ULTF.mdlx
+  - name: obj/P_EX100_TR_HTLF.mdlx
+  - name: obj/P_EX100_WI.mdlx
+  - name: obj/P_EX100_WI_BTLF.mdlx
+  - name: obj/P_EX100_WI_TRIF.mdlx
+  - name: obj/P_EX100_WI_ULTF.mdlx
+  - name: obj/P_EX100_WI_HTLF.mdlx
+  - name: obj/P_EX100_XM.mdlx
+  - name: obj/P_EX100_XM_BTLF.mdlx
+  - name: obj/P_EX100_XM_TRIF.mdlx
+  - name: obj/P_EX100_XM_ULTF.mdlx
+  - name: obj/P_EX100_XM_HTLF.mdlx
+  - name: obj/P_EX100_MEMO.mdlx
+  - name: obj/P_EX100_SIDECAR.mdlx
+  - name: obj/P_EX100_WM.mdlx
+  - name: obj/P_EX100_LAST.mdlx
+  - name: obj/P_EX100_HTLF_BTL.mdlx
+  - name: obj/P_EX110_BTLF.mdlx
+  package: kh2_sixth
   method: copy
   source:
-  - name: tigger/B_EX120.mdlx
+  - name: BanjoKazooie/banjokazooie.mdlx
 
-#Larxene#
-- name: obj/B_EX400.mdlx
-  package: kh2_fifth
-  method: copy
-  source:
-  - name: tigger/B_EX400.mdlx
 
-#Lexaeus#
-- name: obj/N_CM020.mdlx
-multi:
-  - name: obj/N_CM020_BTL.mdlx
-  package: kh2_fifth
+#Sora KH1 Clothes#
+- name: obj/P_EX120.mdlx
+  multi:
+  - name: obj/P_EX120_NPC_RED.mdlx
+  - name: obj/P_EX120_NPC_GREEN.mdlx
+  - name: obj/P_EX120_NPC_BLUE.mdlx
+  package: kh2_sixth
   method: copy
   source:
-  - name: tigger/N_CM020.mdlx
+  - name: BanjoKazooie/banjokazooieKH1CLOTHES.mdlx
 
-#Luxord#
-- name: obj/B_EX150.mdlx
-multi:
-  - name: obj/B_EX150_LV99.mdlx
-  package: kh2_fifth
+#Sora Limit Form Models#
+- name: obj/P_EX100_KH1F.mdlx
+  multi:
+  - name: obj/P_EX100_NM_KH1F.mdlx
+  - name: obj/P_EX100_TR_KH1F.mdlx
+  - name: obj/P_EX100_WI_KH1F.mdlx
+  - name: obj/P_EX100_XM_KH1F.mdlx
+  package: kh2_sixth
   method: copy
   source:
-  - name: tigger/B_EX150.mdlx
+  - name: BanjoKazooie/banjokazooieKH1F.mdlx
 
-#Marluxia#
-- name: obj/N_CM000.mdlx
-multi:
-  - name: obj/N_CM000_BTL.mdlx
-  package: kh2_fifth
-  method: copy
-  source:
-  - name: tigger/N_CM000.mdlx
 
-#Roxas#
-- name: obj/B_EX390.mdlx
-multi:
-  - name: obj/N_EX820_BTL.mdlx
-  package: kh2_fifth
+#Sora Wisdom Form Models#
+- name: obj/P_EX100_MAGF.mdlx
+  multi:
+  - name: obj/P_EX100_NM_MAGF.mdlx
+  - name: obj/P_EX100_TR_MAGF.mdlx
+  - name: obj/P_EX100_WI_MAGF.mdlx
+  - name: obj/P_EX100_XM_MAGF.mdlx
+  package: kh2_sixth
   method: copy
   source:
-  - name: tigger/B_EX390.mdlx
+  - name: BanjoKazooie/banjokazooieMAGF.mdlx
 
-#Saix#
-- name: obj/B_EX160.mdlx
-multi:
-  - name: obj/B_EX160_GM.mdlx
-  - name: obj/B_EX160_LV99.mdlx
-  package: kh2_fifth
-  method: copy
-  source:
-  - name: tigger/B_EX160.mdlx
 
-#Vexen
-- name: obj/N_CM040.mdlx
-multi:
-  - name: obj/N_CM040_BTL.mdlx
-  - name: obj/N_CM040_GM.mdlx
+#Sora High-Poly Models#
+- name: obj/H_EX500.mdlx
+  multi:
+  - name: obj/H_EX500_BTLF.mdlx
+  - name: obj/H_EX500_MAGF.mdlx
+  - name: obj/H_EX500_TRIF.mdlx
+  - name: obj/H_EX500_KH1F.mdlx
+  - name: obj/H_EX500_ULTF.mdlx
+  - name: obj/H_EX500_NM.mdlx
+  - name: obj/H_EX500_NM_BTLF.mdlx
+  - name: obj/H_EX500_NM_MAGF.mdlx
+  - name: obj/H_EX500_NM_TRIF.mdlx
+  - name: obj/H_EX500_NM_KH1F.mdlx
+  - name: obj/H_EX500_NM_ULTF.mdlx
+  - name: obj/H_EX500_TR.mdlx
+  - name: obj/H_EX500_TR_BTLF.mdlx
+  - name: obj/H_EX500_TR_MAGF.mdlx
+  - name: obj/H_EX500_TR_TRIF.mdlx
+  - name: obj/H_EX500_TR_KH1F.mdlx
+  - name: obj/H_EX500_TR_ULTF.mdlx
+  - name: obj/H_EX500_XM.mdlx
+  - name: obj/H_EX500_XM_BTLF.mdlx
+  - name: obj/H_EX500_XM_MAGF.mdlx
+  - name: obj/H_EX500_XM_TRIF.mdlx
+  - name: obj/H_EX500_XM_KH1F.mdlx
+  - name: obj/H_EX500_XM_ULTF.mdlx
   package: kh2_fifth
   method: copy
   source:
-  - name: tigger/N_CM040.mdlx
+  - name: BanjoKazooie/banjokazooieHD.mdlx
 
-#Xaldin#
-- name: obj/B_EX130.mdlx
-multi:
-  - name: obj/B_EX130_GM.mdlx
-  - name: obj/B_EX130_LV99.mdlx
-  package: kh2_fifth
-  method: copy
-  source:
-  - name: tigger/B_EX130.mdlx
 
-#Xemnas 1#
-- name: obj/B_EX170.mdlx
-multi:
-  - name: obj/B_EX170_LV99.mdlx
-  - name: obj/B_EX170_RTN.mdlx
+#Sora High-Poly KH1 Clothes Model#
+- name: obj/H_EX790.mdlx
   package: kh2_fifth
   method: copy
   source:
-  - name: tigger/B_EX170.mdlx
+  - name: BanjoKazooie/banjokazooieHDKH1CLOTHES.mdlx
 
-#Final Xemnas#
-- name: obj/B_EX170_LAST.mdlx
-multi:
-  - name: obj/B_EX170_LAST_LV99.mdlx
-  package: kh2_fifth
-  method: copy
-  source:
-  - name: tigger/B_EX170_LAST.mdlx
 
-#Xigbar#
-- name: obj/B_EX140.mdlx
-multi:
-  - name: obj/B_EX140_GM.mdlx
-  - name: obj/B_EX140_LV99.mdlx
-  package: kh2_fifth
+#Roxas Models#
+- name: obj/P_EX110.mdlx
+  multi:
+  - name: obj/P_EX110_NPC_PAJAMAS.mdlx
+  package: kh2_first
   method: copy
   source:
-  - name: tigger/B_EX140.mdlx
+  - name: BanjoKazooie/banjokazooieroxas.mdlx
 
-#Zexion#
-- name: obj/B_EX370.mdlx
-multi:
-  - name: obj/B_EX140_GM.mdlx
-  - name: obj/B_EX140_LV99.mdlx
+
+#Roxas High-Poly Models#
+- name: obj/H_EX510.mdlx
+  multi:
+  - name: obj/H_EX510_PAJAMAS.mdlx
+  package: kh2_first
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooieroxasHD.mdlx
+
+
+###Textures###
+#Normal Sora Textures#
+- name: remastered/obj/P_EX100.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NPC.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_NM.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM/-0.dds
+  - name: remastered/obj/P_EX100_MEMO/-0.dds
+  - name: remastered/obj/_EX100_SIDECAR/-0.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_LAST/-0.dds
+  - name: remastered/obj/P_EX110_BTLF/-0.dds
+  - name: remastered/obj/P_EX120_BTLF/-0.dds
+  - name: remastered/obj/P_EX120_NPC_RED/-0.dds
+  - name: remastered/obj/P_EX120_NPC_GREEN/-0.dds
+  - name: remastered/obj/P_EX120_NPC_BLUE/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0.dds
+
+
+#Valor Form Model Textures#
+- name: remastered/obj/P_EX100_BTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0btlf.dds
+
+
+#Wisdom Form Model Textures#
+- name: remastered/obj/P_EX100_MAGF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0magf.dds
+
+#Master Form Model Textures#
+- name: remastered/obj/P_EX100_TRIF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0trif.dds
+
+
+#Limit Form Model Textures#
+- name: remastered/obj/P_EX100_KH1F.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0kh1f.dds
+
+
+#Final Form Model Textures#
+- name: remastered/obj/P_EX100_ULTF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0ultf.dds
+
+
+#Anti Form Model Textures#
+- name: remastered/obj/P_EX100_HTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0htlf.dds
+
+
+###HIGH POLY MODEL TEXTURES###
+#High Poly Sora Textures#
+- name: remastered/obj/H_EX500.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM.mdlx/-0.dds
+  - name: remastered/obj/H_ZZ010.mdlx/-0.dds
   package: kh2_fifth
   method: copy
   source:
-  - name: tigger/B_EX370.mdlx
+  - name: BanjoKazooie/-0.dds
+
+
+#High Poly Valor Form Model Textures#
+- name: remastered/obj/H_EX500_BTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_BTLF.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0btlf.dds
+
+
+#High Poly Wisdom Form Model Textures#
+- name: remastered/obj/H_EX500_MAGF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_MAGF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_MAGF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_MAGF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_MAGF.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0magf.dds
+
+#High Poly Master Form Model Textures#
+- name: remastered/obj/H_EX500_TRIF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_TRIF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_TRIF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_TRIF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_TRIF.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0magf.dds
+
+
+#High Poly Limit Form Model Textures#
+- name: remastered/obj/H_EX500_KH1F.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_KH1F.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_KH1F.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_KH1F.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_KH1F.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0kh1f.dds
+
+
+#High Poly Final Form Model Textures#
+- name: remastered/obj/H_EX500_ULTF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX500_NM_ULTF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_ULTF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_ULTF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_ULTF.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0kh1f.dds
+
+
+#High Poly Sora KH1 Clothes Model Texture#
+- name: remastered/obj/H_EX790.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0.dds
+
+
+###Roxas Textures###
+- name: remastered/obj/P_EX110.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX510.mdlx/-0.dds
+  - name: remastered/obj/P_EX110_NPC_PAJAMAS/-0.dds
+  - name: remastered/obj/H_EX510_PAJAMAS/-0.dds
+  package: kh2_first
+  method: copy
+  source:
+  - name: BanjoKazooie/-0.dds
+
+
+
+###Hud Icons###
+#Hud - .png#
+- name: remastered/obj/P_EX100_SIDECAR.a.us/-8.png
+  multi:
+  - name: remastered/obj/P_EX100_SIDECAR.a.fr/-8.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.gr/-8.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.it/-8.png
+  - name: remastered/obj/P_EX100_SIDECAR.a.sp/-8.png
+  - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.a.fr/-8.png
+  - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.a.gr/-8.png
+  - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.a.it/-8.png
+  - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.a.sp/-8.png
+  - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.a.us/-8.png
+  - name: remastered/obj/PO07_PLAYER.a.fr/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.gr/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.it/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.sp/-0.png
+  - name: remastered/obj/PO07_PLAYER.a.us/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.fr/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.gr/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.it/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.sp/-0.png
+  - name: remastered/obj/PO08_PLAYER.a.us/-0.png
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/bkhud.png
+
+
+#Hud - .dds#
+- name: remastered/obj/obj/P_EX100.a.us/-8.dds
+  multi:
+  - name: remastered/obj/AL14_PLAYER.a.us/-8.dds
+  - name: remastered/obj/AL14_PLAYER.a.us/-8.dds
+  - name: remastered/obj/P_EX100_AL_CARPET.a.us/-8.dds
+  - name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_HTLF.a.us/-3.dds
+  - name: remastered/obj/P_EX100_NM.a.us/-8.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-8.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-8.dds
+  - name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_WI_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX110.a.us/-0.dds
+  - name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
+  - name: remastered/obj/P_EX120.a.us/-0.dds
+  - name: remastered/obj/P_EX110_BTLF.a.us/-8.dds
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+  - name: remastered/obj/P_LK000.a.us/-8.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/bkhud.dds
+
+
+#Hud - .dds - XM#
+- name: remastered/obj/P_EX100_XM.a.us/-8.dds
+  multi:
+  - name: remastered/obj/P_EX100_XM_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_XM_HTLF.a.us/-3.dds
+  - name: remastered/obj/P_EX100_XM_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_XM_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.a.us/-10.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/bkhudXM.dds
+
+
+###Battle Quotes###
+- name: voice/us/battle/tt0_sora.win32.scd
+  multi:
+  - name: voice/us/battle/tt0_roxas.win32.scd
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooie.scd
+
+
+- name: voice/us/battle/al0_sora.win32.scd
+  multi:
+  - name: voice/us/battle/bb0_sora.win32.scd
+  - name: voice/us/battle/ca0_sora.win32.scd
+  - name: voice/us/battle/dc0_sora.win32.scd
+  - name: voice/us/battle/eh0_sora.win32.scd
+  - name: voice/us/battle/hb0_sora.win32.scd
+  - name: voice/us/battle/he0_sora.win32.scd
+  - name: voice/us/battle/lk0_sora.win32.scd
+  - name: voice/us/battle/lm0_sora.win32.scd
+  - name: voice/us/battle/mu0_sora.win32.scd
+  - name: voice/us/battle/nm0_sora.win32.scd
+  - name: voice/us/battle/po0_sora.win32.scd
+  - name: voice/us/battle/tr0_sora.win32.scd
+  - name: voice/us/battle/wi0_sora.win32.scd
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooie.scd
