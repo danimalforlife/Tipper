@@ -1,0 +1,141 @@
+title: Tipper
+originalAuthor: danimalforlife
+description: Come on, let's bounce!
+dependencies: 
+assets:
+
+#Axel#
+- name: obj/B_EX110.mdlx
+multi:
+  - name: obj/B_EX110_FRIEND.mdlx
+  - name: obj/B_EX110_RTN.mdlx
+  - name: obj/B_EX110_SKIRMISH.mdlx
+  - name: obj/B_EX110_GM.mdlx
+  - name: obj/B_EX110_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX110.mdlx
+
+#Demyx#
+- name: obj/B_EX110.mdlx
+multi:
+  - name: obj/B_EX120_GM.mdlx
+  - name: obj/B_EX120_HB.mdlx
+  - name: obj/B_EX120_HB_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX120.mdlx
+
+#Larxene#
+- name: obj/B_EX400.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX400.mdlx
+
+#Lexaeus#
+- name: obj/N_CM020.mdlx
+multi:
+  - name: obj/N_CM020_BTL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/N_CM020.mdlx
+
+#Luxord#
+- name: obj/B_EX150.mdlx
+multi:
+  - name: obj/B_EX150_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX150.mdlx
+
+#Marluxia#
+- name: obj/N_CM000.mdlx
+multi:
+  - name: obj/N_CM000_BTL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/N_CM000.mdlx
+
+#Roxas#
+- name: obj/B_EX390.mdlx
+multi:
+  - name: obj/N_EX820_BTL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX390.mdlx
+
+#Saix#
+- name: obj/B_EX160.mdlx
+multi:
+  - name: obj/B_EX160_GM.mdlx
+  - name: obj/B_EX160_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX160.mdlx
+
+#Vexen
+- name: obj/N_CM040.mdlx
+multi:
+  - name: obj/N_CM040_BTL.mdlx
+  - name: obj/N_CM040_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/N_CM040.mdlx
+
+#Xaldin#
+- name: obj/B_EX130.mdlx
+multi:
+  - name: obj/B_EX130_GM.mdlx
+  - name: obj/B_EX130_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX130.mdlx
+
+#Xemnas 1#
+- name: obj/B_EX170.mdlx
+multi:
+  - name: obj/B_EX170_LV99.mdlx
+  - name: obj/B_EX170_RTN.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX170.mdlx
+
+#Final Xemnas#
+- name: obj/B_EX170_LAST.mdlx
+multi:
+  - name: obj/B_EX170_LAST_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX170_LAST.mdlx
+
+#Xigbar#
+- name: obj/B_EX140.mdlx
+multi:
+  - name: obj/B_EX140_GM.mdlx
+  - name: obj/B_EX140_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX140.mdlx
+
+#Zexion#
+- name: obj/B_EX370.mdlx
+multi:
+  - name: obj/B_EX140_GM.mdlx
+  - name: obj/B_EX140_LV99.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/B_EX370.mdlx
