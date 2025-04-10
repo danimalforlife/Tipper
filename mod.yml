@@ -4,6 +4,8 @@ description: Come on, let's bounce!
 dependencies: 
 assets:
 
+
+
 #Axel#
 - name: obj/B_EX110.mdlx
   multi:
@@ -13,9 +15,19 @@ assets:
   - name: obj/B_EX110_GM.mdlx
   - name: obj/B_EX110_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX110.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX110.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX110.texture
+
 
 #Demyx#
 - name: obj/B_EX120.mdlx
@@ -24,52 +36,125 @@ assets:
   - name: obj/B_EX120_HB.mdlx
   - name: obj/B_EX120_HB_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX120.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX120.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX120.texture
+
 
 #Larxene#
 - name: obj/B_EX400.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX400.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX400.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX400.texture
+
 
 #Lexaeus#
 - name: obj/N_CM020.mdlx
   multi:
   - name: obj/N_CM020_BTL.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/N_CM020.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: tigger/N_CM020.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/N_CM020.texture
+
 
 #Luxord#
 - name: obj/B_EX150.mdlx
   multi:
   - name: obj/B_EX150_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX150.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX150.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX150.texture
+
 
 #Marluxia#
 - name: obj/N_CM000.mdlx
   multi:
   - name: obj/N_CM000_BTL.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/N_CM000.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: tigger/N_CM000.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/N_CM000.texture
+
 
 #Roxas#
 - name: obj/B_EX390.mdlx
-  multi:
-  - name: obj/N_EX820_BTL.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX390.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX390.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX390.texture
+
+- name: obj/N_EX820_BTL.mdlx
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: n_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX390.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX390.texture
+
 
 #Saix#
 - name: obj/B_EX160.mdlx
@@ -77,9 +162,19 @@ assets:
   - name: obj/B_EX160_GM.mdlx
   - name: obj/B_EX160_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX160.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX160.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX160.texture
+
 
 #Vexen
 - name: obj/N_CM040.mdlx
@@ -87,9 +182,19 @@ assets:
   - name: obj/N_CM040_BTL.mdlx
   - name: obj/N_CM040_GM.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/N_CM040.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: tigger/N_CM040.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/N_CM040.texture
+
 
 #Xaldin#
 - name: obj/B_EX130.mdlx
@@ -97,9 +202,19 @@ assets:
   - name: obj/B_EX130_GM.mdlx
   - name: obj/B_EX130_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX130.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX130.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX130.texture
+
 
 #Xemnas 1#
 - name: obj/B_EX170.mdlx
@@ -107,18 +222,38 @@ assets:
   - name: obj/B_EX170_LV99.mdlx
   - name: obj/B_EX170_RTN.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX170.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX170.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX170.texture
+
 
 #Final Xemnas#
 - name: obj/B_EX170_LAST.mdlx
   multi:
   - name: obj/B_EX170_LAST_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX170_LAST.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX170_LAST.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX170_LAST.texture
+
 
 #Xigbar#
 - name: obj/B_EX140.mdlx
@@ -126,9 +261,19 @@ assets:
   - name: obj/B_EX140_GM.mdlx
   - name: obj/B_EX140_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX140.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX140.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX140.texture
+
 
 #Zexion#
 - name: obj/B_EX370.mdlx
@@ -136,6 +281,15 @@ assets:
   - name: obj/B_EX140_GM.mdlx
   - name: obj/B_EX140_LV99.mdlx
   package: kh2_fifth
-  method: copy
+  method: binarc
   source:
-  - name: tigger/B_EX370.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX370.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX370.texture
