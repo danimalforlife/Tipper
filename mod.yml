@@ -13,7 +13,6 @@ assets:
   - name: obj/B_EX110_RTN.mdlx
   - name: obj/B_EX110_SKIRMISH.mdlx
   - name: obj/B_EX110_GM.mdlx
-  - name: obj/B_EX110_LV99.mdlx
   package: kh2_fifth
   method: binarc
   source:
@@ -27,6 +26,21 @@ assets:
     method: copy
     source:
     - name: tigger/B_EX110.texture
+
+- name: obj/B_EX110_LV99.mdlx
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX110_LV99.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX110_LV99.texture
 
 
 #Demyx#
