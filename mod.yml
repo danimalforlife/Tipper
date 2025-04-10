@@ -254,6 +254,24 @@ assets:
     source:
     - name: tigger/B_EX170_LAST.texture
 
+#Final Xemnas Texture Replacement#
+- name: remastered/obj/B_EX170_LAST.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/B_EX170_LAST_LV99.mdlx/-3.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/tigger.dds
+
+- name: remastered/obj/B_EX170_LAST.mdlx/-6.dds
+  multi:
+  - name: remastered/obj/B_EX170_LAST_LV99.mdlx/-6.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/tigger.dds
+
+
 
 #Xigbar#
 - name: obj/B_EX140.mdlx
