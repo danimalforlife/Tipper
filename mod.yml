@@ -1,6 +1,9 @@
 title: Tipper
 originalAuthor: danimalforlife
-description: Come on, let's bounce!
+description: |+
+  Come on, let's bounce!
+  
+  Original "Organization-100" and "Musical-Silhouettes" made by Dee-Ayy (A.K.A "DA")(A.K.A "o0DaemonBoy0o"). Mod made with permission.
 dependencies: 
 assets:
 
@@ -122,6 +125,33 @@ assets:
     method: copy
     source:
     - name: tigger/N_CM000.texture
+
+
+#Marluxia Texture Replacement Because GoA re-adds the remastered texture for some reason#
+- name: remastered/obj/N_CM000.mdlx/-2.dds
+  multi:
+  - name: obj/N_CM000_BTL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/hair.dds
+
+- name: remastered/obj/N_CM000.mdlx/-3.dds
+  multi:
+  - name: obj/N_CM000_BTL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/scythe.dds
+
+- name: remastered/obj/N_CM000.mdlx/-4.dds
+  multi:
+  - name: obj/N_CM000_BTL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/tigger.dds
+
 
 
 #Roxas#
