@@ -371,7 +371,7 @@ assets:
 #Destiny Island#
   - name: remastered/map/hb34.map/-2.dds
 #Station of Oblivion#
-  - name: remastered/map/hb38.map/-5.dds
+  - name: remastered/map/hb38.map/-0.dds
 #Betwixt and Between#
   - name: remastered/map/tt40.map/-3.dds
   - name: remastered/map/tt40.map/-4.dds
@@ -382,6 +382,8 @@ assets:
   - name: remastered/map/eh20.map/-1.dds
   - name: remastered/map/eh20.map/-11.dds
   - name: remastered/map/eh20.map/-12.dds
+#Station of Awakening#
+  - name: remastered/map/eh20.map/-21.dds
 #The Wilderness (Lingering William)#
   - name: remastered/map/dc07.map/-6.dds
   package: kh2_fifth
