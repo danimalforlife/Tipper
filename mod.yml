@@ -254,7 +254,7 @@ assets:
     source:
     - name: tigger/B_EX170_LAST.texture
 
-#Final Xemnas Texture Replacement#
+#Final Xemnas Texture Replacement Because GoA re-adds the remastered texture for some reason#
 - name: remastered/obj/B_EX170_LAST.mdlx/-3.dds
   multi:
   - name: remastered/obj/B_EX170_LAST_LV99.mdlx/-3.dds
