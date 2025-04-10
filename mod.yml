@@ -127,7 +127,7 @@ assets:
     - name: tigger/N_CM000.texture
 
 
-#Marluxia Texture Replacement Because GoA re-adds the remastered texture for some reason#
+#Marluxia Texture Replacements Because Reasons#
 - name: remastered/obj/N_CM000.mdlx/-2.dds
   multi:
   - name: remastered/obj/N_CM000_BTL.mdlx/-2.dds
@@ -225,6 +225,24 @@ assets:
     source:
     - name: tigger/N_CM040.texture
 
+#Vexen Texture Replacements To Stop The Horror#
+- name: remastered/obj/N_CM040.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/N_CM040_BTL.mdlx/-2.dds
+  - name: remastered/obj/N_CM040_GM.mdlx/-2.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/shield.dds
+
+- name: remastered/obj/N_CM040.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/N_CM040_BTL.mdlx/-3.dds
+  - name: remastered/obj/N_CM040_GM.mdlx/-3.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: tigger/tigger.dds
 
 #Xaldin#
 - name: obj/B_EX130.mdlx
