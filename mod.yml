@@ -130,7 +130,7 @@ assets:
 #Marluxia Texture Replacement Because GoA re-adds the remastered texture for some reason#
 - name: remastered/obj/N_CM000.mdlx/-2.dds
   multi:
-  - name: obj/N_CM000_BTL.mdlx/-2.dds
+  - name: remastered/obj/N_CM000_BTL.mdlx/-2.dds
   package: kh2_fifth
   method: copy
   source:
@@ -138,7 +138,7 @@ assets:
 
 - name: remastered/obj/N_CM000.mdlx/-3.dds
   multi:
-  - name: obj/N_CM000_BTL.mdlx/-3.dds
+  - name: remastered/obj/N_CM000_BTL.mdlx/-3.dds
   package: kh2_fifth
   method: copy
   source:
@@ -146,7 +146,7 @@ assets:
 
 - name: remastered/obj/N_CM000.mdlx/-4.dds
   multi:
-  - name: obj/N_CM000_BTL.mdlx/-4.dds
+  - name: remastered/obj/N_CM000_BTL.mdlx/-4.dds
   package: kh2_fifth
   method: copy
   source:
