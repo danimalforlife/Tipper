@@ -13,7 +13,7 @@ assets:
   - name: obj/B_EX110_RTN.mdlx
   - name: obj/B_EX110_SKIRMISH.mdlx
   - name: obj/B_EX110_GM.mdlx
-  - name: obj/obj/B_EX110_LV99.mdlx
+  - name: obj/B_EX110_LV99.mdlx
   package: kh2_fifth
   method: binarc
   source:
