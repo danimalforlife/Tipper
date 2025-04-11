@@ -364,55 +364,70 @@ assets:
 #Lingering Will#
 - name: obj/B_EX420.mdlx
   package: kh2_fifth
-  method: binarc
+  method: copy
   source:
-  - name: b_ex
-    type: model
-    method: copy
-    source:
-    - name: tigger/B_EX420.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: tigger/B_EX420.texture
+  - name: tigger/B_EX420.mdlx
 
 
 #Sephiroth (KH2 Sixth)#
 - name: obj/N_HB630.mdlx
-  package: kh2_fifth
-  method: binarc
+  package: kh2_sixth
+  method: copy
   source:
-  - name: n_hb
-    type: model
-    method: copy
-    source:
-    - name: tigger/N_HB630.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: tigger/N_HB630.texture
+  - name: tigger/N_HB630.mdlx
+
+#Lingering Will#
+#- name: obj/B_EX420.mdlx
+#  package: kh2_fifth
+#  method: binarc
+#  source:
+#  - name: b_ex
+#    type: model
+#    method: copy
+#    source:
+#    - name: tigger/B_EX420.model
+#  - name: tim_
+#    type: modeltexture
+#    method: copy
+#    source:
+#    - name: tigger/B_EX420.texture
+
+
+#Sephiroth (KH2 Sixth)#
+#- name: obj/N_HB630.mdlx
+#  package: kh2_fifth
+#  method: binarc
+#  source:
+#  - name: n_hb
+#    type: model
+#    method: copy
+#    source:
+#    - name: tigger/N_HB630.model
+#  - name: tim_
+#    type: modeltexture
+#    method: copy
+#    source:
+#    - name: tigger/N_HB630.texture
 
 
 #Sephiroth (KH2 Fifth)#
-- name: obj/N_HB590_GM.mdlx
-  multi:
-  - name: obj/N_HB590_RTN.mdlx
-  - name: obj/N_HB590_BTL.mdlx
-  package: kh2_fifth
-  method: binarc
-  source:
-  - name: n_hb
-    type: model
-    method: copy
-    source:
-    - name: tigger/N_HB630.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: tigger/N_HB630.texture
+#- name: obj/N_HB590_GM.mdlx
+#  multi:
+#  - name: obj/N_HB590_RTN.mdlx
+#  - name: obj/N_HB590_BTL.mdlx
+#  package: kh2_fifth
+#  method: binarc
+#  source:
+#  - name: n_hb
+#    type: model
+#    method: copy
+#    source:
+#    - name: tigger/N_HB630.model
+#  - name: tim_
+#    type: modeltexture
+#    method: copy
+#    source:
+#    - name: tigger/N_HB630.texture
 
 
 ###Room Texture Replacements###
