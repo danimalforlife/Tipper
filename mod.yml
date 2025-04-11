@@ -361,22 +361,7 @@ assets:
     - name: tigger/B_EX370.texture
 
 
-#Lingering Will#
-- name: obj/B_EX420.mdlx
-  package: kh2_fifth
-  method: copy
-  source:
-  - name: tigger/B_EX420.mdlx
-
-
-#Sephiroth (KH2 Sixth)#
-- name: obj/N_HB630.mdlx
-  package: kh2_sixth
-  method: copy
-  source:
-  - name: tigger/N_HB630.mdlx
-
-#Lingering Will#
+#Lingering Will CRASHING AND I DON'T KNOW WHY#
 #- name: obj/B_EX420.mdlx
 #  package: kh2_fifth
 #  method: binarc
@@ -393,7 +378,7 @@ assets:
 #    - name: tigger/B_EX420.texture
 
 
-#Sephiroth (KH2 Sixth)#
+#Sephiroth (KH2 Sixth) CRASHING AND I DON'T KNOW WHY#
 #- name: obj/N_HB630.mdlx
 #  package: kh2_fifth
 #  method: binarc
@@ -410,7 +395,7 @@ assets:
 #    - name: tigger/N_HB630.texture
 
 
-#Sephiroth (KH2 Fifth)#
+#Sephiroth (KH2 Fifth) CRASHING AND I DON'T KNOW WHY#
 #- name: obj/N_HB590_GM.mdlx
 #  multi:
 #  - name: obj/N_HB590_RTN.mdlx
