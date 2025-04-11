@@ -361,6 +361,60 @@ assets:
     - name: tigger/B_EX370.texture
 
 
+#Lingering Will#
+- name: obj/B_EX420.mdlx
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX420.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX420.texture
+
+
+#Sephiroth (KH2 Sixth)#
+- name: obj/N_HB630.mdlx
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: n_hb
+    type: model
+    method: copy
+    source:
+    - name: tigger/N_HB630.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/N_HB630.texture
+
+
+#Sephiroth (KH2 Fifth)#
+- name: obj/N_HB590_GM.mdlx
+  multi:
+  - name: obj/N_HB590_RTN.mdlx
+  - name: obj/N_HB590_BTL.mdlx
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: n_hb
+    type: model
+    method: copy
+    source:
+    - name: tigger/N_HB630.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/N_HB630.texture
+
+
 ###Room Texture Replacements###
 #Old Mansion (AS/DATA Fight)
 - name: remastered/map/hb32.map/-69.dds
@@ -383,7 +437,7 @@ assets:
   - name: remastered/map/eh20.map/-11.dds
   - name: remastered/map/eh20.map/-12.dds
 #Station of Awakening#
-  - name: remastered/map/eh20.map/-21.dds
+  - name: remastered/map/eh21.map/-21.dds
 #The Wilderness (Lingering William)#
   - name: remastered/map/dc07.map/-6.dds
   package: kh2_fifth
