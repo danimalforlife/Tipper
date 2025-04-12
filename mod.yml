@@ -361,21 +361,21 @@ assets:
     - name: tigger/B_EX370.texture
 
 
-#Lingering Will CRASHING AND I DON'T KNOW WHY#
-#- name: obj/B_EX420.mdlx
-#  package: kh2_fifth
-#  method: binarc
-#  source:
-#  - name: b_ex
-#    type: model
-#    method: copy
-#    source:
-#    - name: tigger/B_EX420.model
-#  - name: tim_
-#    type: modeltexture
-#    method: copy
-#    source:
-#    - name: tigger/B_EX420.texture
+Lingering Will
+- name: obj/B_EX420.mdlx
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: tigger/B_EX420.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: tigger/B_EX420.texture
 
 
 #Sephiroth (KH2 Sixth) CRASHING AND I DON'T KNOW WHY#
