@@ -416,30 +416,21 @@ assets:
 
 
 ###Room Texture Replacements###
-#Old Mansion (AS/DATA Fight)
-- name: remastered/map/hb32.map/-69.dds
+- name: remastered/map/hb32.map/-69.dds #Old Mansion (AS/DATA Fight)
   multi:
-#Station of Remembrance#
-  - name: remastered/map/hb33.map/-0.dds
-  - name: remastered/map/hb33.map/-1.dds
-#Destiny Island#
-  - name: remastered/map/hb34.map/-2.dds
-#Station of Oblivion#
-  - name: remastered/map/hb38.map/-0.dds
-#Betwixt and Between#
-  - name: remastered/map/tt40.map/-3.dds
-  - name: remastered/map/tt40.map/-4.dds
-  - name: remastered/map/tt40.map/-5.dds
-#The Old Mansion (Hopefully also Data)#
-  - name: remastered/map/tt41.map/-69.dds
-#World of Nothing (Final Xem)#
-  - name: remastered/map/eh20.map/-1.dds
-  - name: remastered/map/eh20.map/-11.dds
-  - name: remastered/map/eh20.map/-12.dds
-#Station of Awakening#
-  - name: remastered/map/eh21.map/-21.dds
-#The Wilderness (Lingering William)#
-  - name: remastered/map/dc07.map/-6.dds
+  - name: remastered/map/hb33.map/-0.dds #Station of Remembrance#
+  - name: remastered/map/hb33.map/-1.dds #Station of Remembrance#
+  - name: remastered/map/hb34.map/-2.dds #Destiny Island#
+  - name: remastered/map/hb38.map/-0.dds #Station of Oblivion#
+  - name: remastered/map/tt40.map/-3.dds #Betwixt and Between#
+  - name: remastered/map/tt40.map/-4.dds #Betwixt and Between#
+  - name: remastered/map/tt40.map/-5.dds #Betwixt and Between#
+  - name: remastered/map/tt41.map/-69.dds #The Old Mansion (Hopefully also Data)#
+  - name: remastered/map/eh20.map/-1.dds #World of Nothing (Final Xem)#
+  - name: remastered/map/eh20.map/-11.dds #World of Nothing (Final Xem)#
+  - name: remastered/map/eh20.map/-12.dds #World of Nothing (Final Xem)#
+  - name: remastered/map/eh21.map/-21.dds #Station of Awakening#
+  - name: remastered/map/dc07.map/-6.dds #The Wilderness (Lingering William)#
   package: kh2_fifth
   method: copy
   source:
