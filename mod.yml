@@ -325,7 +325,7 @@ assets:
 - name: obj/B_EX140.mdlx
   multi:
   - name: obj/B_EX140_GM.mdlx
-  #- name: obj/B_EX140_LV99.mdlx
+  - name: obj/B_EX140_LV99.mdlx
   package: kh2_fifth
   method: binarc
   source:
@@ -343,9 +343,6 @@ assets:
 
 #Zexion#
 - name: obj/B_EX370.mdlx
-  multi:
-  - name: obj/B_EX140_GM.mdlx
-  - name: obj/B_EX140_LV99.mdlx
   package: kh2_fifth
   method: binarc
   source:
